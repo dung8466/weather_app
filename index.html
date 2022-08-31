@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Weather of your location</h1>
+    <div>
+        <div class="lat">
+            <label for="latitude">Latitude</label>
+            <input class="latitude" value="0"></input>
+        </div>
+        <div class="long">
+            <label for="longitude">Longitude</label>
+            <input class="longitude" value="0"></input>
+        </div>
+    </div>
+    <div class="btn">
+        <button class="location">Get Location</button>
+        <button class="weather">Get weather</button>
+    </div>
+    <div class="weatherInfo">
+        <div class="weatherIcon">
+            <img src="src/10n@4x.png" alt="">
+        </div>
+        <div class="tempB">
+            <img src="src/thermometer.png" alt="">
+            <p class="temp">0</p>
+        </div>
+        <div class="windB">
+            <img src="src/wind.png" alt="">
+            <p class="wind">0</p>
+        </div>
+        <div class="rainB">
+            <img src="src/rain.png" alt="">
+            <p class="rain">0</p>
+        </div>
+        <div class="descriptionB">
+            <p>Description:</p>
+            <p class="description"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
