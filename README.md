@@ -78,7 +78,9 @@ All you need is a browser.
    ```sh
    git clone https://github.com/dung8466/weather_app.git
    ```
-3. Open index.html using brower of your choice.
+3. Change key in app.js to your own key.
+![Screenshot](/screenshot/Screenshot.png)
+4. Open index.html using brower of your choice.
 
 
 <!-- ROADMAP -->
